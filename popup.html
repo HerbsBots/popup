@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>A simple pop-up</title>
+    <link rel="stylesheet" href="popup.css" />
+  </head>
+  <body>
+    <div class="container">
+      <button type="submit" class="btn" onclick="openPopup()">
+        <span>END ACTION</span>
+      </button>
+      <div class="popup" id="popup">
+        <img src="images/Tick.png" /><br /><br /><br />
+        <div id="text">
+          <h2>Thank You!</h2>
+          <br /><br />
+          <p>
+            ACTIVITY OF YOUR ACTIONS HAS BEEN SUCCESSFULLY ACCESSED, KINDLY
+            PREPARE YOUR PSYCH FOR RESPONSE SOON.
+          </p>
+        </div>
+        <button type="button" onclick="closePopup()">ACCEPT</button>
+      </div>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
